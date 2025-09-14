@@ -1,5 +1,5 @@
 # Rust
-/target
+**/target/
 Cargo.lock
 .DS_Store
 
@@ -10,3 +10,8 @@ Cargo.lock
 # IDE configuration
 .vscode/
 .idea/
+
+# Build artifacts
+**/pkg/
+**/dist/
+**/node_modules/
